@@ -55,6 +55,9 @@ public class Camara2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_camara2);
+        setTitle("Camara2");
+
+
         verifyStoragePermissions(this);
         Button btnTakePicture = (Button) findViewById(R.id.btnTakePicture);
         btnTakePicture.setOnClickListener(new View.OnClickListener() {
